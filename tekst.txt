@@ -1,0 +1,7 @@
+Faili sisu lugemine ühekorraga
+
+Koosta veel üks mitmerealine, suvalise sisuga tekstifail ning salvesta see nimega tekst.txt. Seejärel käivita (samas kaustas) järgnev näiteprogramm:
+f = open('tekst.txt')
+faili_sisu = f.read()
+print(faili_sisu)
+f.close()
